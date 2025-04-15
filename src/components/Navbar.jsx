@@ -11,7 +11,7 @@ function Navbar() {
 
     return (
         <>
-        <nav className='bg-black flex lg:justify-around px-5  justify-between items-center lg:h-[80px] h-[61px] relative'>
+        <nav className='bg-black flex lg:justify-around px-5  justify-between items-center lg:h-[80px] sticky h-[61px] top-0 z-100'>
             <figure className='lg:h-[50px] flex h-[40px] justify-center items-center gap-4'>
                 <Menu onClick={()=>{setOpenMenu(true)}} className={`text-white h-11 w-11 ${!openMenu?"block":"hidden"}  lg:hidden `}/>
                 <X onClick={()=>{setOpenMenu(false)}} className={`text-white h-11 w-11 ${openMenu?"block":"hidden"}  lg:hidden `}/>

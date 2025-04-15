@@ -308,7 +308,4 @@ export const membershipSection = [
         description:"The more you load the bigger your discounts",
         image:"https://playarena.in/wp-content/uploads/2024/05/Big-Discounts.svg",
     },
-    
-    
-    
 ]

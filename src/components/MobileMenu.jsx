@@ -9,7 +9,7 @@ function MobileMenu({openMenu}) {
     const [openDropdown, setOpenDropdown] = useState(null);
 
     return (
-        <nav className={`${openMenu?"block":"hidden"} overflow-scroll`}>
+        <nav className={`${openMenu?"block":"hidden"} absolute top-[61px] overflow-scroll z-20 w-full bg-black`}>
             <ul className=' text-white bg-black flex flex-col items-start justify-start font-semibold  text-[18px] h-screen'>
                 {navItems.map((item, index) => (
                     <li
